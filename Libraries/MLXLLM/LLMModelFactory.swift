@@ -139,6 +139,11 @@ public class LLMRegistry: AbstractModelRegistry, @unchecked Sendable {
         id: "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
         defaultPrompt: "Why is the sky blue?"
     )
+    
+    static public let qwen2_5_0_5b = ModelConfiguration(
+        id: "mlx-community/Qwen2.5-0.5B-Instruct-4bit",
+        defaultPrompt: "Why is the sky blue?"
+    )
 
     static public let openelm270m4bit = ModelConfiguration(
         id: "mlx-community/OpenELM-270M-Instruct",

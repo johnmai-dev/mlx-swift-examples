@@ -393,7 +393,7 @@ class LLMEvaluator2 {
 
     /// This controls which model loads. `qwen2_5_1_5b` is one of the smaller ones, so this will fit on
     /// more devices.
-    let modelConfiguration = LLMRegistry.llama3_2_1B_4bit
+    let modelConfiguration = LLMRegistry.qwen2_5_0_5b
 
     /// parameters controlling the output
     let generateParameters = GenerateParameters(temperature: 0.6)
