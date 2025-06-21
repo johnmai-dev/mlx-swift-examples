@@ -46,6 +46,7 @@ public class LLMTypeRegistry: ModelTypeRegistry, @unchecked Sendable {
             "mimo": create(MiMoConfiguration.self, MiMoModel.init),
             "glm4": create(GLM4Configuration.self, GLM4Model.init),
             "acereason": create(Qwen2Configuration.self, Qwen2Model.init),
+            "exaone": create(ExaoneConfiguration.self, ExaoneModel.init),
         ]
     }
 
